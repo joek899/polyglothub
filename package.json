@@ -1,0 +1,37 @@
+{
+  "name": "polyglothub",
+  "version": "1.0.0",
+  "description": "An open-source multilingual dictionary platform",
+  "main": "src/server/index.ts",
+  "scripts": {
+    "server": "ts-node src/server/index.ts",
+    "client": "vite",
+    "build": "vite build"
+  },
+  "keywords": ["dictionary", "multilingual", "open-source"],
+  "author": "PolyglotHub Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.4",
+    "vite": "^5.3.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+    "tailwindcss": "^3.4.4",
+    "postcss": "^8.4.39",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2"
+  }
+}
